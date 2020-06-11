@@ -1,24 +1,24 @@
 {
     "name": "apihawk/installer",
-    "description": "The Laravel Zero Framework.",
+    "description": "MicroCell is a toolkit for writing AppCell plugins.",
     "keywords": [
-        "framework",
-        "laravel",
-        "laravel zero",
+        "apihawk",
+        "appcell",
+        "cell",
         "console",
-        "cli"
+        "worker"
     ],
-    "homepage": "https://laravel-zero.com",
+    "homepage": "https://apihawk.com",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
+        "issues": "https://www.apihawk.com/en/contacts/",
+        "source": "https://github.com/ApiHawk/Installer"
     },
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Pavel Nikolov",
+            "email": "p.nikolov@apihawk.com"
         }
     ],
     "require": {
