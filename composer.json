@@ -1,7 +1,13 @@
 {
-    "name": "laravel-zero/installer",
+    "name": "apihawk/installer",
     "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
+    "keywords": [
+        "framework",
+        "laravel",
+        "laravel zero",
+        "console",
+        "cli"
+    ],
     "homepage": "https://laravel-zero.com",
     "type": "project",
     "license": "MIT",
@@ -44,5 +50,7 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["builds/laravel-zero"]
+    "bin": [
+        "builds/apihawk"
+    ]
 }

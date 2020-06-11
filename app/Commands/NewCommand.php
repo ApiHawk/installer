@@ -12,7 +12,7 @@ class NewCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'new {name=laravel-zero}';
+    protected $signature = 'new {name=apihawk}';
 
     /**
      * The description of the command.
@@ -50,7 +50,7 @@ class NewCommand extends Command
         $this->info('Crafting application..');
 
         $this->composer->createProject(
-            'laravel-zero/laravel-zero',
+            'apihawk/apihawk',
             $this->argument('name'),
             ['--prefer-dist']
         );
