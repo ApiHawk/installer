@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
-
+/*
+ApiHawk Console Script
+*/
 define('LARAVEL_START', microtime(true));
 
 /*
