@@ -30,6 +30,10 @@ composer global require "apihawk/installer"
 ```
 
 Make sure to place composer's system-wide vendor bin directory in your `$PATH` so the ApiHawk executable can be located by your system. This directory exists in different locations based on your operating system. On macOS and GNU/Linux distributions, it's $HOME/.composer/vendor/bin.
+To edit the $PATH: 
+
+MacOS: 
+```sudo nano /etc/paths```
 
 Once installed, the `apihawk new-cell` command will create a fresh MicroCell installation in the directory you specify. For instance, apihawk new-cell YourVendorName will create a directory named YourVendorNameCell containing a fresh MircoCell installation with all of MicroCell's dependencies already installed:
 ```bash
