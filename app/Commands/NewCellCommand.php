@@ -104,12 +104,12 @@ class NewCellCommand extends Command
             $lastCharWasCaps = $classFormat;
 
             for ($i = 1; $i < $length; $i++) {
-                $ascii = ord($string{$i});
+                $ascii = ord($string[$i]);
                 if ($ascii >= 48 && $ascii <= 57) {
                     // The character is a number, so it cant be a capital.
                     $isCaps = false;
                 } else {
-                    if (strtoupper($string{$i}) === $string{$i}) {
+                    if (strtoupper($string[$i]) === $string[$i]) {
                         $isCaps = true;
                     } else {
                         $isCaps = false;
